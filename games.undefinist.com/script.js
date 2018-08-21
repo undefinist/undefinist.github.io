@@ -1,5 +1,4 @@
 var games = null;
-var htmlStr = "";
 
 function filter_itchio_data(data)
 {
@@ -23,6 +22,8 @@ function build(elems_per_row) {
 	{
 		if(games[i].type == null)
 			games[i].type = "Game Jam";
+		if(!games[i].cover.startsWith("http"))
+			games[i].cover = "https://code.undefinist.com/games.undefinist.com/" + games[i].cover;
 		if(i % elems_per_row == 0 && i > 0)
 			htmlStr += '</div><div class="row">';
 		htmlStr +=
