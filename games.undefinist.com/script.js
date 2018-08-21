@@ -62,7 +62,7 @@ function build(elems_per_row) {
 	});
 }
 
-jQuery.getJSON("data.json", function(data) {
+jQuery.getJSON("https://code.undefinist.com/games.undefinist.com/data.json", function(data) {
 	data.sort(function(a, b) { return a.date < b.date ? 1 : -1 });
 	games = data;
 	build(4);
