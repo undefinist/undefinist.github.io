@@ -1,1 +1,128 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>undefinist / Malody Hoe</title>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&text=%7B%7D%40abcdefghijklmnopqrstuvwxyz" rel="stylesheet">
+  <link rel='shortcut icon' type='image/png' href='favicon.png' />
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #f3f3f3;
+    }
+
+    #typo {
+      font-family: "Varela Round";
+      font-size: 15vmin;
+      margin: 1vmin 2vmin;
+      display: inline-block;
+    }
+    #typo div {
+      height: 15vmin;
+      display: inline-block;
+      float: left;
+      clear: left;
+    }
+    #line2 {
+      font-size: 20vmin;
+      height: 25vmin !important;
+      animation-name: shift, rotate !important;
+      animation-timing-function: ease-in-out, cubic-bezier(0.5, 0, 0.5, 1) !important;
+    }
+    #line2-outer {
+      height: 25vmin !important;
+      animation: pulse 1.5s ease-in-out 0s alternate infinite;
+    }
+    #line3 {
+      margin-top: 5vmin;
+    }
+    #line4 {
+      margin-left: 10vmin;
+    }
+
+    #typo > div:not(#line2-outer):nth-child(odd) {
+      -webkit-text-fill-color: transparent;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAApElEQVR4nO3aMRGAMAAEQYJ2dKRECirwksjYIrcKbr7+8fzfug526wCtAXSA1gA6QGsAHaA1gA7QGkAHaA2gA7QG0AFaA+gArQF0gNYAOkBrAB2gNYAO0BpAB2gNoAO0BtAB2ljv7B9wsgbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaA2gA7QG0AFaA+gArQF0gNYAOkBrAB2gNYAO0BpAB2gb49MG5heOhn8AAAAASUVORK5CYII=);
+      background-size: 200%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: #84DCC6;
+      animation: shift 2s ease-in-out 0s alternate infinite;
+    }
+    #typo > div:not(#line2-outer):nth-child(even), #line2 {
+      -webkit-text-fill-color: transparent;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAApklEQVR4nO3SQQ2AMAAEQSAVgwIcYoMnNlsZ8+iOgs3lzvl/89jYpQO0BtABWgPoAK0BdIDWADpAawAdoDWADtAaQAdoDaADtAbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaON9bt1Abf+ABtABWgPoAK0BdIDWADpAawAdoDWADtAaQAdoDaADtAbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaAtiuASnx9w0UQAAAABJRU5ErkJggg==);
+      background-size: 75%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: #FFA69E;
+      animation: shift 2s ease-in-out 0s alternate infinite;
+    }
+
+    @keyframes shift {
+      0% { background-position: 0% 0%; }
+      100% { background-position: 0% 100%; }
+    }
+    @keyframes rotate {
+      0% { transform: rotate(-2.5deg); }
+      33% { transform: rotate(2.5deg); }
+      66% { transform: rotate(-2.5deg); }
+      100% { transform: rotate(2.5deg); }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    #links {
+      position: absolute;
+      bottom: 0.5vmin;
+      left: 1vmin;
+    }
+    a {
+      font-family: "Varela Round";
+      font-size: 4vmin;
+      padding: 0 1vmin;
+      display: inline-block;
+      transition: transform 0.25s ease-out;
+    }
+    a:hover {
+      transform: translate(0, -1vmin);
+      /*padding-bottom: 1vmin;*/
+    }
+    a:nth-child(odd) {
+      color: #84DCC6;
+    }
+    a:nth-child(even) {
+      color: #FFA69E;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="typo">
+    <div id="line1">i make</div>
+    <div id="line2-outer"><a id="line2" href="https://games.undefinist.com">{ games }</a></div>
+    <div id="line3">not</div>
+    <div id="line4">websites</div>
+  </div>
+  <div id="links">
+    <a href="https://twitter.com/undefinist" target="_blank">@undefinist</a>
+    <a href="https://instagr.am/undefinist" target="_blank">instagram</a>
+    <a href="https://undefinist.itch.io" target="_blank">itch.io</a>
+    <a href="https://github.com/undefinist" target="_blank">github</a>
+    <a href="https://undefinist.deviantart.com" target="_blank">deviantart</a>
+  </div>
+</body>
+
+</html>
