@@ -41,6 +41,17 @@
       height: 25vmin !important;
       animation: pulse 1.5s ease-in-out 0s alternate infinite;
     }
+    #line2-outer span {
+      transition: all 0.5s ease-out;
+    }
+    #line2-outer span:first-child, #line2-outer:hover span:last-child {
+      margin-left: 2.5vmin;
+      margin-right: 0;
+    }
+    #line2-outer span:last-child, #line2-outer:hover span:first-child {
+      margin-left: 0;
+      margin-right: 2.5vmin;
+    }
     #line3 {
       margin-top: 5vmin;
     }
@@ -112,7 +123,7 @@
 <body>
   <div id="typo">
     <div id="line1">i make</div>
-    <div id="line2-outer"><a id="line2" href="https://games.undefinist.com">{ games }</a></div>
+    <div id="line2-outer"><a id="line2" href="https://games.undefinist.com"><span>{</span> games <span>}</span></a></div>
     <div id="line3">not</div>
     <div id="line4">websites</div>
   </div>
