@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>undefinist / Malody Hoe</title>
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round&text=%7B%7D%40abcdefghijklmnopqrstuvwxyz" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/vqw6kqd.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel='shortcut icon' type='image/png' href='favicon.png' />
 
   <style>
@@ -17,97 +18,21 @@
       padding: 0;
       overflow: hidden;
       background: #f3f3f3;
+      font-family: minion-3, Georgia, serif;
     }
-
-    #typo {
-      font-family: "Varela Round";
-      font-size: 15vmin;
-      margin: 1vmin 2vmin;
-      display: inline-block;
+    .container-fluid {
+      padding: 20px 30px;
     }
-    #typo div {
-      height: 15vmin;
-      display: inline-block;
-      float: left;
-      clear: left;
-    }
-    #line2 {
-      font-size: 20vmin;
-      height: 25vmin !important;
-      animation-name: shift, rotate !important;
-      animation-timing-function: ease-in-out, cubic-bezier(0.5, 0, 0.5, 1) !important;
-    }
-    #line2-outer {
-      height: 25vmin !important;
-      animation: pulse 1.5s ease-in-out 0s alternate infinite;
-    }
-    #line2-outer span {
-      transition: all 0.5s ease-out;
-    }
-    #line2-outer span:first-child, #line2-outer:hover span:last-child {
-      margin-left: 2.5vmin;
-      margin-right: 0;
-    }
-    #line2-outer span:last-child, #line2-outer:hover span:first-child {
-      margin-left: 0;
-      margin-right: 2.5vmin;
-    }
-    #line3 {
-      margin-top: 5vmin;
-    }
-    #line4 {
-      margin-left: 10vmin;
-    }
-
-    #typo > div:not(#line2-outer):nth-child(odd) {
-      -webkit-text-fill-color: transparent;
-      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAApElEQVR4nO3aMRGAMAAEQYJ2dKRECirwksjYIrcKbr7+8fzfug526wCtAXSA1gA6QGsAHaA1gA7QGkAHaA2gA7QG0AFaA+gArQF0gNYAOkBrAB2gNYAO0BpAB2gNoAO0BtAB2ljv7B9wsgbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaA2gA7QG0AFaA+gArQF0gNYAOkBrAB2gNYAO0BpAB2gb49MG5heOhn8AAAAASUVORK5CYII=);
-      background-size: 200%;
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: #84DCC6;
-      animation: shift 2s ease-in-out 0s alternate infinite;
-    }
-    #typo > div:not(#line2-outer):nth-child(even), #line2 {
-      -webkit-text-fill-color: transparent;
-      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAApklEQVR4nO3SQQ2AMAAEQSAVgwIcYoMnNlsZ8+iOgs3lzvl/89jYpQO0BtABWgPoAK0BdIDWADpAawAdoDWADtAaQAdoDaADtAbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaON9bt1Abf+ABtABWgPoAK0BdIDWADpAawAdoDWADtAaQAdoDaADtAbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaAtiuASnx9w0UQAAAABJRU5ErkJggg==);
-      background-size: 75%;
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: #FFA69E;
-      animation: shift 2s ease-in-out 0s alternate infinite;
-    }
-
-    @keyframes shift {
-      0% { background-position: 0% 0%; }
-      100% { background-position: 0% 100%; }
-    }
-    @keyframes rotate {
-      0% { transform: rotate(-2.5deg); }
-      33% { transform: rotate(2.5deg); }
-      66% { transform: rotate(-2.5deg); }
-      100% { transform: rotate(2.5deg); }
-    }
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-      100% { transform: scale(1); }
-    }
-
-    #links {
-      position: absolute;
-      bottom: 0.5vmin;
-      left: 1vmin;
+    h1 {
+      font-size: 3rem;
     }
     a {
-      font-family: "Varela Round";
-      font-size: 4vmin;
-      padding: 0 1vmin;
-      display: inline-block;
+      font-size: 2rem;
+      display: block;
       transition: transform 0.25s ease-out;
     }
     a:hover {
-      transform: translate(0, -1vmin);
+      transform: translate(1rem, 0);
       /*padding-bottom: 1vmin;*/
     }
     a:nth-child(odd) {
@@ -121,18 +46,12 @@
 </head>
 
 <body>
-  <div id="typo">
-    <div id="line1">i make</div>
-    <div id="line2-outer"><a id="line2" href="https://games.undefinist.com"><span>{</span> games <span>}</span></a></div>
-    <div id="line3">not</div>
-    <div id="line4">websites</div>
-  </div>
-  <div id="links">
-    <a href="https://twitter.com/undefinist" target="_blank">@undefinist</a>
-    <a href="https://instagr.am/undefinist" target="_blank">instagram</a>
-    <a href="https://undefinist.itch.io" target="_blank">itch.io</a>
-    <a href="https://github.com/undefinist" target="_blank">github</a>
-    <a href="https://undefinist.deviantart.com" target="_blank">deviantart</a>
+  <div class="container-fluid">
+    <h1>I make games not websites.</h1>
+    <a href="https://twitter.com/undefinist">@undefinist</a>
+    <a href="https://games.undefinist.com">>games</a>
+    <a href="https://undefinist.deviantart.com">\custo</a>
+    <a href="https://blog.undefinist.com">_blog</a>
   </div>
 </body>
 
