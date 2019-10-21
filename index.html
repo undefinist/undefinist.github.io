@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<div class="container-fluid header">
+<div class="container-fluid header" id="top">
   <h1>I make games not websites.</h1>
-  <a href="https://twitter.com/undefinist">@undefinist</a>
-  <a href="https://undefinist.deviantart.com">\custo</a>
-  <a href="https://blog.undefinist.com">_blog</a>
+  <a href="https://twitter.com/undefinist">@undefinist</a><br/>
+  <a href="https://undefinist.deviantart.com">\custo</a><br/>
+  <a href="https://blog.undefinist.com">_blog</a><br/>
+  <a href="mailto:undefinist@gmail.com">>mail</a>
 </div>
 <div id="games" class="container-fluid">
   <div class="grid card-colum">
@@ -21,11 +22,14 @@ layout: default
           <div class="card-body">
             <h3 class="card-title">{{game.title}}</h3>
             <p>{{game.desc | markdownify}}</p>
-            <small>[ {{game.tool}} ]<br>{{gametype}} // {{game.interval}}</small>
+            <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
           </div>
         </a>
       </div>
     {% endfor %}
   </div>
+</div>
+<div class="scroll-to-top">
+  <a href="#top">Click this magical link to scroll back to top.</a>
 </div>
 <script src="script.js"></script>

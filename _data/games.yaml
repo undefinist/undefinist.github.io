@@ -2,28 +2,28 @@
   url: https://undefinist.itch.io/hijack
   cover: img/hijack.png
   tool: Haxe/HaxeFlixel
-  desc: Endless action space kamikaze game
+  desc: Endless action space kamikaze game.
   date: 2014-04-10
 
 - title: Underneath Our Faces
   url: https://undefinist.itch.io/underneath-our-faces
   cover: img/underneath_our_faces.png
   tool: Haxe/HaxeFlixel
-  desc: A pretentious game about pretending to be happy -- Made for LD29
+  desc: A pretentious game about pretending to be happy -- Made for Ludum Dare 29.
   date: 2014-04-27
 
 - title: ARENA++
   url: https://undefinist.itch.io/arenaplusplus
   cover: img/arena++.png
   tool: Unity/C#
-  desc: Fast-paced top-down arena arcade shooter, made for LD31
+  desc: Fast-paced top-down arena arcade shooter, made for Ludum Dare 31.
   date: 2014-12-07
 
 - title: Forgotten Fragments
   url: https://holler.sp.edu.sg/Render2016/portfolio/forgotten-fragment/
   cover: img/forgotten_fragments.png
   tool: Unity/C#
-  desc: Hack-and-Slash in procedurally generated world
+  desc: Hack-and-Slash in procedurally generated world. This was my final year project in Singapore Polytechnic, where I worked as a programmer.
   date: 2015-02-24
   type: School Project
 
@@ -31,28 +31,28 @@
   url: https://undefinist.itch.io/kbdbg
   cover: img/kbdbg.png
   tool: Haxe/HaxeFlixel
-  desc: Play it to believe it -- Made for LD32
+  desc: Play it to believe it -- Made for Ludum Dare 32.
   date: 2015-04-19
 
 - title: pyinpyang
   url: https://undefinist.itch.io/pyinpyang
   cover: img/pyinpyang.jpg
   tool: Haxe/HaxeFlixel
-  desc: Pong meets Pacman -- Made for LD33
+  desc: Pong meets Pacman -- Made for Ludum Dare 33.
   date: 2015-08-22
 
 - title: OUROBOROS
   url: https://undefinist.itch.io/ouroboros
   cover: img/ouroboros.png
   tool: Haxe/luxe
-  desc: Eat your own tail -- Made for LD35
+  desc: Eat your own tail -- Made for Ludum Dare 35.
   date: 2016-04-18
 
 - title: SUPER PYANG
   url: https://undefinist.itch.io/super-pyang
   cover: img/super_pyang.png
   tool: Haxe/HaxeFlixel
-  desc: Super Pong meets Super Pacman -- Post-jam version of pyinpyang
+  desc: Super Pong meets Super Pacman -- Post-jam version of pyinpyang.
   date: 2016-04-19
   type: Personal Project
 
@@ -60,43 +60,45 @@
   url: https://undefinist.itch.io/landshift
   cover: img/landshift.png
   tool: Haxe/luxe
-  desc: Small puzzler for LD38 about connecting roads and rivers
+  desc: Small puzzler for Ludum Dare 38 about connecting roads and rivers.
   date: 2017-04-23
 
 - title: Phi
   url: https://games.digipen.edu/games/phi
   cover: img/phi.png
   tool: C++/Custom Engine
-  desc: Phi is a meditative action adventure game where you control a snake-like creature
+  desc: "Phi is a meditative action adventure game where you control a snake-like creature.\n\nPhi was a freshman game project which won DigiPen Game Awards - Claude Comair Grand Prize for
+Game of the Year 2018, competing against sophomore and junior level projects. I worked on gameplay programming, engine programming as well as game design."
   date: 2018-04-13
+  interval: JAN 2018 - APR 2019
   type: School Project
 
 - title: golf hell
   url: https://undefinist.itch.io/golf-hell
   cover: img/golf_hell.png
   tool: Haxe/heaps
-  desc: golf x bullet hell for LD41
+  desc: golf x bullet hell for Ludum Dare 41.
   date: 2018-04-23
 
 - title: A Bunny's Tale
   url: https://undefinist.itch.io/a-bunnys-tale
   cover: img/a_bunnys_tale.png
   tool: Haxe/HaxeFlixel
-  desc: Platformer where you have limited jumps, made for LD42
+  desc: Platformer where you have limited jumps, made for Ludum Dare 42.
   date: 2018-08-12
 
 - title: Loss for Words
   url: https://undefinist.itch.io/loss-for-words
   cover: img/loss_for_words.png
   tool: Unity/C#
-  desc: Loss for Words is an experiential typing game where you aren't sure what you're typing, made for GMTK Jam 2018
+  desc: Loss for Words is an experiential typing game where you aren't sure what you're typing, made for GMTK Jam 2018.
   date: 2018-09-02
 
 - title: DOORS
   url: https://www.youtube.com/watch?v=JMnAsw8Nlks
   cover: img/doors.png
   tool: C#/XNA
-  desc: An atmospheric puzzle game with... doors
+  desc: An atmospheric puzzle game with... doors.
   date: 2014-02-11
   type: School Project
   
@@ -104,16 +106,19 @@
   url: https://undefinist.itch.io/beams
   cover: img/beams.png
   tool: Unreal Engine 4
-  desc: A simple puzzle game about light beams
+  desc: A simple puzzle game about light beams. Made solo with Blueprint scripting and strong emphasis on the Material Editor.
   date: 2018-08-08
+  interval: JUL 2018 - AUG 2018
   type: School Project
 
 - title: ALTER
   url: https://games.digipen.edu/games/alter
   cover: img/alter.png
   tool: C++/Lua/Custom Engine
-  desc: ALTER is a platformer where the player has the ability to manipulate space and move and rotate objects to avoid threats and solve puzzles
+  desc: "ALTER is a platformer where the player has the ability to manipulate space and move and rotate objects to avoid threats and solve puzzles.\n\nA 2D Sophomore game project, I was the technical lead, responsible for engine architecture, custom
+editor, Lua bindings as well as reflection/serialization. I also contributed to the game design and some scripting."
   date: 2019-04-14
+  interval: SEPT 2018 - FEB 2019
   type: School Project
 
 - title: Recoil Tower
@@ -122,27 +127,55 @@
   tool: C/Custom Engine
   desc: Downwell-inspired game with full ASCII art, played completely in the console window.
   date: 2017-12-10
+  interval: OCT 2017 - DEC 2017
   type: School Project
 
 - title: Catsplosion! Purrsuit of Cake
   url: https://drive.google.com/open?id=1S0J8e5ITzx0ZqI7xhWIeAr5UVLJR6_Ne
   cover: img/catsplosion.png
   tool: Unity/C#
-  desc: Play as an exploding cat in purrsuit of cake... _Nothing_ can stand in your way!
+  desc: "Play as an exploding cat in purrsuit of cake... _Nothing_ can stand in your way!\n\nI was a designer/programmer on this two-man team."
   date: 2019-04-07
+  interval: MAR 2019 - APR 2019
   type: School Project
 
 - title: It's A Wrap
   url: https://drive.google.com/open?id=1qVq1d3IQQvLsV0Ry1u8xavxAHOpleIBJ
   cover: img/its_a_wrap.png
   tool: Unity/C#
-  desc: In _It's A Wrap_, solve mind-bending puzzles using special boxes that allow you to traverse space in a unique way.
+  desc: "In _It's A Wrap_, solve mind-bending puzzles using special boxes that allow you to traverse space in a unique way.\n\nI was a designer/programmer on this two-man team."
   date: 2019-04-12
+  interval: JAN 2019 – FEB 2019
   type: School Project
 
 - title: Hyde & Seek
   tool: C++/Lua/Custom Engine
-  desc: In progress.
+  desc: A 3D Junior-level local multiplayer game project, currently in development.
   date: 2019-09-01
-  interval: SEPT 2019 - PRESENT
+  interval: IN DEVELOPMENT
   type: School Project
+
+- title: glyphgen (tool)
+  url: https://undefinist.com/glyphgen
+  tool: Web/JavaScript
+  desc: A tiny tool to procedurally generate glyphs.
+  date: 2019-07-17
+  interval: 
+  type: School Project
+
+- title: lasttime (tool)
+  url: https://undefinist.com/lasttime
+  tool: Web/JavaScript
+  desc: A tiny tool to collate basic time statistics in last.fm.
+  date: 2018-12-13
+  interval: 
+  type: Personal Project
+
+- title: fruita vs
+  url: https://www.deviantart.com/undefinist/art/fruita-vs-for-windows-10-778407586
+  cover: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f23ee899-5a46-4134-a74f-d50082411b0c/dcvfz4y-fff5b266-bae1-4ece-9000-19f05387bd63.png
+  tool: visual style
+  desc: A custom visual style for Windows 10.
+  date: 2018-12-13
+  interval: 
+  type: Personal Project

@@ -5,36 +5,47 @@ html, body {
 	padding: 0;
 	background: #f3f3f3;
 	font-family: minion-3, Georgia, serif;
+	scroll-behavior: smooth;
+	-webkit-user-select: none;
 }
-.container-fluid {
+
+.header {
 	padding: 20px 30px;
 }
 h1 {
 	font-size: 3rem;
 }
-.header a {
+
+.header a, .scroll-to-top a {
 	font-size: 2rem;
-	display: block;
+	display: inline-block;
 	transition: transform 0.25s ease-out;
 }
 .header a:hover {
 	transform: translate(1rem, 0);
-	/*padding-bottom: 1vmin;*/
 }
-.header a:nth-child(odd) {
+.header a:nth-of-type(even), .scroll-to-top {
 	color: #84dcc6;
 }
-.header a:nth-child(even) {
+.header a:nth-of-type(odd) {
+	color: #ffa69e;
+}
+.scroll-to-top {
+	text-align: right;
+}
+.scroll-to-top a {
+	font-size: 1em;
+	color: #ffa69e;
+	padding-right: 0.2em;
+}
+.scroll-to-top a:hover {
+	transform: translate(-0.5em, 0);
 	color: #ffa69e;
 }
 
-.card-img-top {
-	border-radius: 0;
-}
-
 .card {
-	box-shadow: -4px 4px #f3f3f3, -4px 4px 0 3px #ffa69e;
-	background: #e7e7e7;
+	box-shadow: -6px 6px #ffa69e;
+	background: #ffffff;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 30px !important;
@@ -42,11 +53,22 @@ h1 {
 	color: #111111;
 }
 .card:hover {
-	box-shadow: -4px 4px #f3f3f3, -4px 4px 0 3px #84dcc6;
+	box-shadow: -6px 6px #84dcc6;
 	text-decoration: none;
 	color: #111111;
 }
-
+.card-img-top {
+	border-radius: 0;
+}
 .card-title {
 	font-family: proxima-nova, helvetica, sans-serif;
+}
+
+small {
+	color: #666666;
+	font-family: proxima-nova, helvetica, sans-serif;
+}
+small > span {
+	font-family: "Source Code Pro", Calibri, monospace;
+	font-size: 0.9em;
 }
