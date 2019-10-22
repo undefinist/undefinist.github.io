@@ -1,5 +1,13 @@
 ---
 layout: default
+about:
+  <p>With a strong passion for games and game development,
+  I have designed and programmed plenty of video games as well as game engines
+  over the past few years, including school projects, personal projects, as well as game jams.
+  I am well-versed in modern C++, and try to keep up to date with new standards.
+  Of course, I don't restrict myself to C++, having programmed extensively in Haxe, Lua, as well as C#.</p>
+  <p class='last'>I have a profound interest in games not just as entertainment, but more importantly, as an art form.
+  Feel free to browse my work!</p>
 ---
 <div class="container-fluid header" id="top">
   <h1>I make games not websites.</h1>
@@ -9,7 +17,16 @@ layout: default
   <a href="mailto:undefinist@gmail.com">>mail</a>
 </div>
 <div id="games" class="container-fluid">
-  <div class="grid card-colum">
+  <div class="grid">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 grid-sizer"></div>
+    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-6 card-outer" id="about-me">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Hi, I'm Malody Hoe.</h3>
+          <p>{{page.about}}</p>
+        </div>
+      </div>
+    </div>
     {% assign games = site.data.games | sort:"date" | reverse %}
     {% for game in games %}
       {% assign gametype = "Game Jam" %}

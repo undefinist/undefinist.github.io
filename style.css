@@ -72,3 +72,14 @@ small > span {
 	font-family: "Source Code Pro", Calibri, monospace;
 	font-size: 0.9em;
 }
+
+#about-me .card-title {
+	font-weight: 600;
+}
+#about-me .card {
+	border-radius: 16px;
+	font-size: 1.25em;
+}
+#about-me p.last, #about-me p:last-child {
+	margin-bottom: 0;
+}
