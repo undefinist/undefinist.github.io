@@ -6,7 +6,7 @@ html, body {
 	background: #f3f3f3;
 	font-family: minion-3, Georgia, serif;
 	scroll-behavior: smooth;
-	-webkit-user-select: none;
+	user-select: none;
 }
 
 .header {
@@ -16,31 +16,36 @@ h1 {
 	font-size: 3rem;
 }
 
-.header a, .scroll-to-top a {
+.header a, .footer a {
 	font-size: 2rem;
 	display: inline-block;
 	transition: transform 0.25s ease-out;
 }
-.header a:hover {
+.header a:hover, .footer a:hover {
 	transform: translate(1rem, 0);
 }
-.header a:nth-of-type(even), .scroll-to-top {
+.header a:nth-of-type(even) {
 	color: #84dcc6;
 }
 .header a:nth-of-type(odd) {
 	color: #ffa69e;
 }
-.scroll-to-top {
+
+.footer {
+	padding: 10px 30px;
 	text-align: right;
+	display: inline-block;
 }
-.scroll-to-top a {
+.footer a {
 	font-size: 1em;
 	color: #ffa69e;
-	padding-right: 0.2em;
+	float: left;
 }
-.scroll-to-top a:hover {
-	transform: translate(-0.5em, 0);
-	color: #ffa69e;
+.footer span {
+	color: #aaaaaa;
+}
+.footer img {
+	margin-bottom: 10px;
 }
 
 .card {
@@ -65,8 +70,9 @@ h1 {
 }
 
 small {
-	color: #666666;
+	color: #7f7f7f;
 	font-family: proxima-nova, helvetica, sans-serif;
+	vertical-align: bottom;
 }
 small > span {
 	font-family: "Source Code Pro", Calibri, monospace;
@@ -79,7 +85,22 @@ small > span {
 #about-me .card {
 	border-radius: 16px;
 	font-size: 1.25em;
+	box-shadow: none;
+	user-select: text;
 }
 #about-me p.last, #about-me p:last-child {
 	margin-bottom: 0;
+}
+#about-me .expand {
+	position: relative;
+}
+#about-me .expand::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    right: 6px;
+    top: 6px;
+    bottom: -6px;
+    border-radius: 16px;
+	background: repeating-linear-gradient( -45deg, #ffa69e, #ffa69e 10px, transparent 10px, transparent 20px );
 }

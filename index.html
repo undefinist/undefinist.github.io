@@ -20,10 +20,12 @@ about:
   <div class="grid">
     <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 grid-sizer"></div>
     <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-6 card-outer" id="about-me">
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title">Hi, I'm Malody Hoe.</h3>
-          <p>{{page.about}}</p>
+      <div class="expand">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Hi, I'm Malody Hoe.</h3>
+            <p>{{page.about}}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -46,7 +48,9 @@ about:
     {% endfor %}
   </div>
 </div>
-<div class="scroll-to-top">
+<div class="footer container-fluid">
+  <img src="img/u_logo_mini.png"><br/>
   <a href="#top">Click this magical link to scroll back to top.</a>
+  <span>© 2019 Malody Hoe</span>
 </div>
 <script src="script.js"></script>
