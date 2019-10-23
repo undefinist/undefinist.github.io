@@ -48,6 +48,18 @@ h1 {
 	margin-bottom: 10px;
 }
 
+@media (max-width: 575px) {
+	.footer {
+		text-align: center;
+	}
+	.footer a {
+		float: none;
+	}
+	.footer span {
+		display: block;
+	}
+}
+
 .card {
 	box-shadow: -6px 6px #ffa69e;
 	background: #ffffff;
