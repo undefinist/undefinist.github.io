@@ -149,10 +149,11 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
   type: School Project
 
 - title: Hyde & Seek
+  url: /hydeandseek
   tool: C++/Lua/Custom Engine
   desc: A 3D Junior-level local multiplayer game project, currently in development.
   date: 2019-09-01
-  interval: IN DEVELOPMENT
+  interval: AUG 2019 - PRESENT
   type: School Project
 
 - title: glyphgen (tool)
