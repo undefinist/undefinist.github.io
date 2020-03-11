@@ -150,8 +150,7 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
 
 - title: Hyde & Seek
   url: /hydeandseek
-  tool: C++/Lua/Custom Engine
-  desc: A 3D Junior-level local multiplayer game project, currently in development.
+  tool: C++/C#/Custom Engine  desc: A 3D Junior-level local multiplayer game project, currently in development.
   date: 2019-09-01
   interval: AUG 2019 - PRESENT
   type: School Project
