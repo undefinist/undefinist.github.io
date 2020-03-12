@@ -48,4 +48,4 @@ I worked on a variety of scripts and systems, such as the player controller, gam
 I also wrote a Tween Manager to make it easier to tween and make sequences.
 
 I had not worked on networked games before, so dealing with networking was very new to me.
-In this project, I learnt a lot about networking and synchronization between the server and clients via RPC calls.
+In this project, I learnt a lot about networking and synchronization between the server and clients via *Remote Procedure Calls*.
