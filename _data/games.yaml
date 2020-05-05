@@ -151,9 +151,9 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
 - title: Hyde & Seek
   url: /hydeandseek
   tool: C++/C#/Custom Engine
-  desc: A 3D Junior-level local/networked 4-player party game, currently in development.
+  desc: A 3D Junior-level local/networked 4-player party game.
   date: 2019-09-01
-  interval: AUG 2019 - PRESENT
+  interval: SEPT 2019 - APR 2020
   type: School Project
 
 - title: glyphgen (tool)

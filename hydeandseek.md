@@ -12,7 +12,7 @@ title: Hyde & Seek
 
 ## Description
 - Title: Hyde & Seek
-- Duration: Aug 2019 - Present (30 weeks)
+- Duration: 30 weeks
 - Team Size: 11
 - Custom Engine (C++) with C# Scripting
 
