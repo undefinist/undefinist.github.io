@@ -36,7 +36,7 @@ One of the achievements I made for the engine/editor was a custom Material Edito
 I worked on both the frontend in the editor, as well as the backend in the compilation of the shader graph.
 I also helped integrating it in the graphics pipeline.
 As an example, here is a sparkle material I made for a particle system VFX.
-Here is an [article](https://blog.undefinist.com/shader-graph/) I wrote about it.
+Here is an [article](https://blog.undefinist.com/writing-a-shader-graph/) I wrote about it.
 
 ![Shader Graph Preview](img/shadergraph.png)
 
