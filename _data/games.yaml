@@ -150,8 +150,18 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
 
 - title: Hyde & Seek
   url: /hydeandseek
+  cover: img/hydenseek.png
   tool: C++/C#/Custom Engine
-  desc: A 3D Junior-level local/networked 4-player party game.
+  desc: Hyde & Seek is a party game that pits 4 friends against one another in a deranged Victorian survival game.
+        You and 3 other "guests" are tasked to collect gems around the mansion.
+        But be careful! Rumor has it that guests have been turning into monsters around the mansion...
+        Be the first to collect ten gems and be granted your freedom!
+
+        
+        *ALL IS FAIR IN HYDE & SEEK. BETRAY, OUTWIT, EVEN CHOMP YOUR FELLOW GUESTS TO SECURE YOUR FREEDOM.*
+
+
+        A 3D Junior-level local/networked 4-player party game. I was a generalist programmer on this 11-man team, and worked on engine/editor features, gameplay programming as well as game and level design.
   date: 2019-09-01
   interval: SEPT 2019 - APR 2020
   type: School Project
