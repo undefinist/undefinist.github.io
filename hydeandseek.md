@@ -62,7 +62,7 @@ Finally, I also wrote a basic UI system based on Unity UI. The UI elements all u
 correctly across different screen sizes and ratios.
 
 ### Gameplay Programming
-In the second half of the project (Jan 2019 - Apr 2019), I focused mainly on gameplay scripting.
+In the second half of the project (Jan 2020 - Apr 2020), I focused mainly on gameplay scripting.
 I worked on a variety of scripts and systems, such as the player controller, game loop, as well as adding feedback.
 I also wrote a Tween Manager to make it easier to tween and make sequences.
 
