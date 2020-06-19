@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "bootstrap.min";
 @import "svg-icons";
 
 $accent1: #ffa69e;
@@ -13,7 +14,6 @@ html, body {
     padding: 0;
     background: #f3f3f3;
     font-family: minion-3, Georgia, serif;
-    scroll-behavior: smooth;
 }
 
 .header {
@@ -48,7 +48,7 @@ ul {
     margin-bottom: 1rem;
 }
 
-.header a, .footer a {
+.header a {
     font-size: 2rem;
     display: inline-block;
     transition: transform 0.25s ease-out;
@@ -69,8 +69,12 @@ ul {
     display: inline-block;
     a {
         font-size: 1em;
-        color: $accent1;
-        float: left;
+        text-decoration: underline;
+        color: $accent2;
+        display: inline-block;
+    }
+    a:hover {
+        color: #0056b3;
     }
     span {
         color: #aaaaaa;
