@@ -11,4 +11,7 @@
     window.addEventListener('resize', function(event) {
         masonry.layout();
     });
+    document.fonts.ready.then(function() {
+        masonry.layout();
+    });
 })();
