@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: Hyde & Seek
+permalink: hydeandseek
 ---
 <div class="row">
 <div class="col-lg-3 col-sm-3"></div>
@@ -22,6 +23,11 @@ Be the first to collect ten gems and be granted your freedom!
 
 {:.text-center.lead}
 *ALL IS FAIR IN HYDE & SEEK. BETRAY, OUTWIT, EVEN CHOMP YOUR FELLOW GUESTS TO SECURE YOUR FREEDOM.*
+
+{:.text-center.mb-4}
+<a class="btn btn-lg btn-primary" href="https://games.digipen.edu/games/hyde-seek">Download Game</a>
+
+<hr>
 
 ## Description
 - Title: Hyde & Seek
