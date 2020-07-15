@@ -181,3 +181,13 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
   date: 2018-12-13
   interval: 
   type: Personal Project
+
+- title: SYNTHEPOSER
+  url: https://undefinist.itch.io/syntheposer
+  cover: img/syntheposer.jpg
+  tool: Unity/C#
+  desc: Made for GMTK Jam 2020.
+  
+
+        You have no direct control of the character. Instead, control its movement and jump curves via the SYNTHEPOSER.
+  date: 2020-07-13
