@@ -72,6 +72,7 @@ Game of the Year 2018, competing against sophomore and junior level projects. I 
   date: 2018-04-13
   interval: JAN 2018 - APR 2018
   type: School Project
+  featured: true
 
 - title: golf hell
   url: https://undefinist.itch.io/golf-hell
@@ -112,14 +113,15 @@ Game of the Year 2018, competing against sophomore and junior level projects. I 
   type: School Project
 
 - title: ALTER
-  url: https://games.digipen.edu/games/alter
+  url: /alter
   cover: img/alter.png
   tool: C++/Lua/Custom Engine
   desc: "ALTER is a platformer where the player has the ability to manipulate space and move and rotate objects to avoid threats and solve puzzles.\n\nA 2D Sophomore game project, I was the technical lead, responsible for engine architecture, custom
 editor, Lua bindings as well as reflection/serialization. I also contributed to the game design and some scripting."
   date: 2019-04-14
-  interval: SEPT 2018 - FEB 2019
+  interval: SEPT 2018 - APR 2019 (30 WEEKS)
   type: School Project
+  featured: true
 
 - title: Recoil Tower
   url: https://drive.google.com/open?id=1SD1FknMIgS3Y2MD8Vo7Z-li2VXX7_wZY
@@ -161,10 +163,12 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
         *ALL IS FAIR IN HYDE & SEEK. BETRAY, OUTWIT, EVEN CHOMP YOUR FELLOW GUESTS TO SECURE YOUR FREEDOM.*
 
 
-        A 3D Junior-level local/networked 4-player party game. I was a generalist programmer on this 11-man team, and worked on engine/editor features, gameplay programming as well as game and level design.
+        A 3D Junior-level local/networked 4-player party game. I was a generalist programmer on this 11-man team,
+        and worked on engine/editor features, gameplay programming as well as game and level design.
   date: 2019-09-01
-  interval: SEPT 2019 - APR 2020
+  interval: AUG 2019 - APR 2020 (32 WEEKS)
   type: School Project
+  featured: true
 
 - title: glyphgen (tool)
   url: https://undefinist.com/glyphgen
@@ -191,3 +195,10 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
 
         You have no direct control of the character. Instead, control its movement and jump curves via the SYNTHEPOSER.
   date: 2020-07-13
+
+- title: "Red Snow: The Thirteen Dwarves"
+  url: https://undefinist.itch.io/13dwarves
+  cover: img/13dwarves.png
+  tool: Unity/C#
+  desc: Make peace in this thrilling war game made for LD47.
+  date: 2020-10-05

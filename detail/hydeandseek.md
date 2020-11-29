@@ -31,12 +31,19 @@ Be the first to collect ten gems and be granted your freedom!
 
 ## Description
 - Title: Hyde & Seek
-- Duration: 30 weeks
+- Duration: 32 weeks
 - Team Size: 11
 - Role: Generalist [Serialization/Materials/Gameplay/Design]
 - Custom Engine (C++) with C# Scripting
 
 Hyde & Seek is a 3D Junior-level local/networked 4-player party game. I worked on engine/editor features, gameplay programming as well as game and level design.
+
+#### Digipen (Singapore) Awards 2020
+Winner - Best Junior Technology  
+Winner - Best User Interface  
+Winner - Best 3D Visual Design  
+Winner - Best Junior Game  
+2nd Place - Claude Comair Grand Prize for Game of the Year
 
 ## Contributions
 ### Engine/Editor Programming

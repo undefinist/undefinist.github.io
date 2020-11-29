@@ -2,6 +2,8 @@
 ---
 
 @import "bootstrap.min";
+@import "variables";
+@import "highlights";
 @import "svg-icons";
 
 $accent1: #ffa69e;
@@ -30,6 +32,7 @@ h2, h3 {
 }
 h2 {
     font-weight: 700;
+    font-size: 2.25rem;
 }
 h3 {
     font-weight: 500;
@@ -161,6 +164,15 @@ footer {
     }
 }
 
+#content > .row {
+    padding: 10px 15px;
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+.grid {
+    width: 100%;
+}
 .card {
     box-shadow: -6px 6px $accent1;
     background: #ffffff;
@@ -187,12 +199,17 @@ small {
     font-family: $headerfont;
     vertical-align: bottom;
     & > span {
-        font-family: "Source Code Pro", Calibri, monospace;
+        font-family: source-code-pro, Calibri, monospace;
         font-size: 0.9em;
     }
 }
 
 #about-me {
+    h2 {
+        position: absolute;
+        top: -1.6rem;
+        left: -2rem;
+    }
     .card-title {
         font-weight: 600;
     }
@@ -201,11 +218,14 @@ small {
         font-size: 1.25em;
         box-shadow: none;
         user-select: text;
+        padding-top: 0.2rem;
     }
     p.last, p:last-child {
         margin-bottom: 0;
     }
     .expand {
+        margin-left: 2rem;
+        margin-top: 1rem;
         position: relative;
         &::before {
             content: "";

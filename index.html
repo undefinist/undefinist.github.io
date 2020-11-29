@@ -1,13 +1,10 @@
 ---
 layout: default
-about:
-  <p>With a strong passion for games and game development,
-  I have designed and programmed plenty of video games as well as game engines
-  over the past few years, including school projects, personal projects, as well as game jams.
-  I am well-versed in modern C++, and try to keep up to date with new standards.
-  Of course, I don't restrict myself to C++, having programmed extensively in Haxe, Lua, as well as C#.</p>
-  <p class='last'>I have a profound interest in games not just as entertainment, but more importantly, as an art form.
-  Feel free to browse my work!</p>
+about: 
+    I'm a Computer Science & Game Design soon-to-be graduate with strong focus on gameplay and engine development.
+    I have a strong foundation in C++, and have worked on commercial engines like Unity and Unreal, as well as custom engines.
+    I love video games, and have a profound interest in games not just as entertainment, but more importantly, as an art form.
+    Feel free to browse my work!
 ---
 <div class="container-fluid header" id="top">
   <h1>I make games not websites.</h1>
@@ -17,36 +14,67 @@ about:
   <a href="https://undefinist.deviantart.com">\custo</a><br/>
   <a href="mailto:me@undefinist.com">>mail</a>
 </div>
-<div id="games" class="container-fluid">
-  <div class="grid">
-    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 grid-sizer"></div>
-    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-6 card-outer" id="about-me">
+<div id="content" class="container-fluid">
+  <div class="row align-items-center">
+    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-5" id="about-me">
       <div class="expand">
         <div class="card">
+          <h2>Hi, I'm Malody Hoe.</h2>
           <div class="card-body">
-            <h3 class="card-title">Hi, I'm Malody Hoe.</h3>
             <p>{{page.about}}</p>
           </div>
         </div>
       </div>
     </div>
-    {% assign games = site.data.games | sort:"date" | reverse %}
-    {% for game in games %}
-      {% assign gametype = "Game Jam" %}
-      {% if game.type %}
-        {% assign gametype = game.type %}
-      {% endif %}
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 card-outer" data-type="{{gametype}}">
-        <a class="card" href="{{game.url}}">
-          <img src="{{game.cover}}" class="card-img-top">
-          <div class="card-body">
-            <h3 class="card-title">{{game.title}}</h3>
-            <p>{{game.desc | markdownify}}</p>
-            <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
+    <div class="ml-auto ml-md-0 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <img src="img/me.jpg" class="img-fluid rounded-circle">
+    </div>
+  </div>
+  <div class="row">
+    <h2 class="col-12">Featured Games</h2>
+    <div class="grid" id="featured-games">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 grid-sizer"></div>
+      {% assign games = site.data.games | where:"featured","true" | sort:"date" | reverse %}
+      {% for game in games %}
+        {% assign gametype = "Game Jam" %}
+        {% if game.type %}
+          {% assign gametype = game.type %}
+        {% endif %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card-outer" data-type="{{gametype}}">
+          <a class="card" href="{{game.url}}">
+            <img src="{{game.cover}}" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">{{game.title}}</h3>
+              <p>{{game.desc | markdownify}}</p>
+              <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <h2 class="col-12">Other Works</h2>
+    <div class="grid" id="other-works">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 grid-sizer"></div>
+      {% assign games = site.data.games | where:"featured",nil | sort:"date" | reverse %}
+      {% for game in games %}
+        {% assign gametype = "Game Jam" %}
+        {% if game.type %}
+          {% assign gametype = game.type %}
+        {% endif %}
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 card-outer" data-type="{{gametype}}">
+          <a class="card" href="{{game.url}}">
+            <img src="{{game.cover}}" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">{{game.title}}</h3>
+              <p>{{game.desc | markdownify}}</p>
+              <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 <div class="footer container-fluid">
