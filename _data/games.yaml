@@ -67,8 +67,15 @@
   url: https://games.digipen.edu/games/phi
   cover: img/phi.png
   tool: C++/Custom Engine
-  desc: "Phi is a meditative action adventure game where you control a snake-like creature.\n\nPhi was a freshman game project which won DigiPen Game Awards - Claude Comair Grand Prize for
-Game of the Year 2018, competing against sophomore and junior level projects. I worked on gameplay programming, engine programming as well as game design."
+  desc:
+    Phi is a meditative adventure game. Play as Phi, a snake-like creature, navigating through an ancient ruin
+    in search of lost souls to bring to their final resting place. 
+    Explore a cold, uncaring world and guide Phi to the light at the end of the tunnel.
+    
+
+    This was a freshman game project which won DigiPen Game Awards - Claude Comair Grand Prize for
+    Game of the Year 2018, competing against sophomore and junior level projects.
+    I worked on gameplay programming, engine programming as well as game design.
   date: 2018-04-13
   interval: JAN 2018 - APR 2018
   type: School Project
@@ -116,8 +123,13 @@ Game of the Year 2018, competing against sophomore and junior level projects. I 
   url: /alter
   cover: img/alter.png
   tool: C++/Lua/Custom Engine
-  desc: "ALTER is a platformer where the player has the ability to manipulate space and move and rotate objects to avoid threats and solve puzzles.\n\nA 2D Sophomore game project, I was the technical lead, responsible for engine architecture, custom
-editor, Lua bindings as well as reflection/serialization. I also contributed to the game design and some scripting."
+  desc: 
+    ALTER is a 2D action adventure platformer where the player has the ability to manipulate space,
+    which the player can use to move and rotate objects to avoid threats and solve puzzles.
+    
+    
+    A 2D Sophomore game project, I was the technical lead, responsible for engine architecture, custom
+    editor, Lua bindings as well as reflection/serialization. I also contributed to the game design and some scripting.
   date: 2019-04-14
   interval: SEPT 2018 - APR 2019 (30 WEEKS)
   type: School Project
@@ -154,17 +166,18 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
   url: /hydeandseek
   cover: img/hydenseek.png
   tool: C++/C#/Custom Engine
-  desc: Hyde & Seek is a party game that pits 4 friends against one another in a deranged Victorian survival game.
-        You and 3 other "guests" are tasked to collect gems around the mansion.
-        But be careful! Rumor has it that guests have been turning into monsters around the mansion...
-        Be the first to collect ten gems and be granted your freedom!
+  desc: 
+    Hyde & Seek is a party game that pits 4 friends against one another in a deranged Victorian survival game.
+    You and 3 other "guests" are tasked to collect gems around the mansion.
+    But be careful! Rumor has it that guests have been turning into monsters around the mansion...
+    Be the first to collect ten gems and be granted your freedom!
 
-        
-        *ALL IS FAIR IN HYDE & SEEK. BETRAY, OUTWIT, EVEN CHOMP YOUR FELLOW GUESTS TO SECURE YOUR FREEDOM.*
+    
+    *ALL IS FAIR IN HYDE & SEEK. BETRAY, OUTWIT, EVEN CHOMP YOUR FELLOW GUESTS TO SECURE YOUR FREEDOM.*
 
 
-        A 3D Junior-level local/networked 4-player party game. I was a generalist programmer on this 11-man team,
-        and worked on engine/editor features, gameplay programming as well as game and level design.
+    A 3D Junior-level local/networked 4-player party game. I was a generalist programmer on this 11-man team,
+    and worked on engine/editor features, gameplay programming as well as game and level design.
   date: 2019-09-01
   interval: AUG 2019 - APR 2020 (32 WEEKS)
   type: School Project
@@ -190,15 +203,13 @@ editor, Lua bindings as well as reflection/serialization. I also contributed to 
   url: https://undefinist.itch.io/syntheposer
   cover: img/syntheposer.jpg
   tool: Unity/C#
-  desc: Made for GMTK Jam 2020.
-  
-
-        You have no direct control of the character. Instead, control its movement and jump curves via the SYNTHEPOSER.
+  desc: Made for GMTK Jam 2020. 
+    You have no direct control of the character. Instead, control its movement and jump curves via the SYNTHEPOSER.
   date: 2020-07-13
 
 - title: "Red Snow: The Thirteen Dwarves"
   url: https://undefinist.itch.io/13dwarves
   cover: img/13dwarves.png
   tool: Unity/C#
-  desc: Make peace in this thrilling war game made for LD47.
+  desc: Make peace in this cute yet thrilling war game -- made for Ludum Dare 47.
   date: 2020-10-05
