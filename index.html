@@ -35,7 +35,7 @@ image: img/me.jpg
     <h2 class="col-12">Featured Games</h2>
     <div class="grid" id="featured-games">
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 grid-sizer"></div>
-      {% assign games = site.data.games | where:"featured","true" | sort:"date" | reverse %}
+      {% assign games = site.data.games | where:"featured",true | sort:"date" | reverse %}
       {% for game in games %}
         {% assign gametype = "Game Jam" %}
         {% if game.type %}
@@ -58,22 +58,24 @@ image: img/me.jpg
     <h2 class="col-12">Other Works</h2>
     <div class="grid" id="other-works">
       <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 grid-sizer"></div>
-      {% assign games = site.data.games | where:"featured",nil | sort:"date" | reverse %}
+      {% assign games = site.data.games | sort:"date" | reverse %}
       {% for game in games %}
-        {% assign gametype = "Game Jam" %}
-        {% if game.type %}
-          {% assign gametype = game.type %}
-        {% endif %}
-        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 card-outer" data-type="{{gametype}}">
-          <a class="card" href="{{game.url}}">
-            <img src="{{game.cover}}" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">{{game.title}}</h3>
-              <p>{{game.desc | markdownify}}</p>
-              <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
-            </div>
-          </a>
-        </div>
+        {% unless game.featured %}
+          {% assign gametype = "Game Jam" %}
+          {% if game.type %}
+            {% assign gametype = game.type %}
+          {% endif %}
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 card-outer" data-type="{{gametype}}">
+            <a class="card" href="{{game.url}}">
+              <img src="{{game.cover}}" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">{{game.title}}</h3>
+                <p>{{game.desc | markdownify}}</p>
+                <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
+              </div>
+            </a>
+          </div>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
