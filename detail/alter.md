@@ -2,6 +2,7 @@
 layout: detail
 title: Alter
 permalink: alter
+image: img/alter.png
 ---
 <div class="row">
 <div class="col-lg-3 col-sm-3"></div>

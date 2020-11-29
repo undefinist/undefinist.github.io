@@ -2,6 +2,7 @@
 layout: detail
 title: Hyde & Seek
 permalink: hydeandseek
+image: img/hydenseek.png
 ---
 <div class="row">
 <div class="col-lg-3 col-sm-3"></div>
