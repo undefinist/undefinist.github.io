@@ -48,7 +48,7 @@ Finalist - Koei Tecmo Singapore Most Innovative Design
 The engine was my first foray into Entity-Component-Systems.
 Entities are just IDs, Components were stored in pools,
 and Systems simply operate on specific Components or sets of Components.
-The game project and engine is programmed in C++17, which allows for the use of newly introduced functionalities
+The game engine is programmed in C++17, which allows for the use of newly introduced functionalities
 such as `if constexpr`, fold expressions, the `std::filesystem` library and other useful libraries.
 
 The engine runs in fixed timesteps with interpolated rendering. In other words, the rigidbodies' states
