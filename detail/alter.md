@@ -1,8 +1,9 @@
 ---
 layout: detail
-title: Alter
+title: ALTER | Malody Hoe
 permalink: alter
 image: img/alter.png
+description: ALTER is a 2D action adventure platformer where the player has the ability to manipulate space to avoid threats and solve puzzles.
 ---
 <div class="row">
 <div class="col-lg-3 col-sm-3"></div>

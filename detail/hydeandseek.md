@@ -1,8 +1,9 @@
 ---
 layout: detail
-title: Hyde & Seek
+title: Hyde & Seek | Malody Hoe
 permalink: hydeandseek
 image: img/hydenseek.png
+description: Hyde & Seek is a party game that pits 4 friends against one another in a deranged Victorian survival game.
 ---
 <div class="row">
 <div class="col-lg-3 col-sm-3"></div>
