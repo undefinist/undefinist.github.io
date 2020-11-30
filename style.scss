@@ -115,32 +115,15 @@ hr {
 // main page footer
 .footer {
     padding: 15px 30px;
-    text-align: right;
-    display: inline-block;
     a {
-        font-size: 1em;
         text-decoration: underline;
         color: $accent2;
-        display: inline-block;
     }
     a:hover {
         color: #0056b3;
     }
     span {
         color: #aaaaaa;
-    }
-    img {
-        margin-bottom: 10px;
-    }
-
-    @media (max-width: 575px) {
-        text-align: center;
-        a {
-            float: none;
-        }
-        span {
-            display: block;
-        }
     }
 }
 
