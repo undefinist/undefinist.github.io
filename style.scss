@@ -20,6 +20,10 @@ html, body {
     font-family: $bodyfont;
 }
 
+.detail {
+    font-size: 1.125rem;
+}
+
 .header {
     padding: 20px 30px;
 }
@@ -32,7 +36,6 @@ h2, h3 {
 }
 h2 {
     font-weight: 700;
-    font-size: 2.25rem;
 }
 h3 {
     font-weight: 500;
@@ -150,6 +153,7 @@ footer {
 #content > .row {
     padding: 10px 15px;
     h2 {
+        font-size: 2.25rem;
         margin-bottom: 1rem;
     }
 }

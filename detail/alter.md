@@ -6,12 +6,9 @@ image: img/alter.png
 description: ALTER is a 2D action adventure platformer where the player has the ability to manipulate space to avoid threats and solve puzzles.
 ---
 <div class="row">
-<div class="col-lg-3 col-sm-3"></div>
-<div class="col-lg-6 col-sm-6" markdown="1">
-{:.mt-3}
-![Alter](img/AlterLogo.png)
-</div>
-<div class="col-lg-3 col-sm-3"></div>
+  <div class="col-lg-6 col-sm-6 mt-3 mx-auto">
+    <h1 markdown="1">![Alter](img/AlterLogo.png)</h1>
+  </div>
 </div>
 
 <div class='embed-container'>

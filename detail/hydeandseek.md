@@ -6,15 +6,13 @@ image: img/hydenseek.png
 description: Hyde & Seek is a party game that pits 4 friends against one another in a deranged Victorian survival game.
 ---
 <div class="row">
-<div class="col-lg-3 col-sm-3"></div>
-<div class="col-lg-6 col-sm-6" markdown="1">
-![Hyde & Seek](img/HydeLogo.png)
-</div>
-<div class="col-lg-3 col-sm-3"></div>
+  <div class="col-lg-6 col-sm-6 mx-auto">
+    <h1 markdown="1">![Hyde & Seek](img/HydeLogo.png)</h1>
+  </div>
 </div>
 
 <div class='embed-container'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/n4cHep9gxeg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/n4cHep9gxeg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 {:.text-center.lead}
