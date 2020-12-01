@@ -3,7 +3,8 @@
     for (let elem of $grid) {
         let masonry = new Masonry(elem, {
             itemSelector: '.card-outer',
-            columnWidth: '.grid-sizer'
+            columnWidth: '.grid-sizer',
+            percentPosition: true
         });
         let imgload = imagesLoaded(elem);
         imgload.on("progress", function() {
