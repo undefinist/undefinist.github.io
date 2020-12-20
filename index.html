@@ -33,9 +33,9 @@ description: Hi, I'm Malody Hoe. I'm a Computer Science & Game Design soon-to-be
       <img src="img/me.jpg" class="img-fluid rounded-circle">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="featured-games">
     <h2 class="col-12">Featured Games</h2>
-    <div class="grid" id="featured-games">
+    <div class="grid">
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 grid-sizer"></div>
       {% assign games = site.data.games | where:"featured",true | sort:"date" | reverse %}
       {% for game in games %}
@@ -56,9 +56,9 @@ description: Hi, I'm Malody Hoe. I'm a Computer Science & Game Design soon-to-be
       {% endfor %}
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="other-works">
     <h2 class="col-12">Other Works</h2>
-    <div class="grid" id="other-works">
+    <div class="grid">
       <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 grid-sizer"></div>
       {% assign games = site.data.games | sort:"date" | reverse %}
       {% for game in games %}

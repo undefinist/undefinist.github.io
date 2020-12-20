@@ -213,3 +213,15 @@
   tool: Unity/C#
   desc: Make peace in this cute yet thrilling war game -- made for Ludum Dare 47.
   date: 2020-10-05
+
+- title: Joycon Dragon Prototype
+  url: https://www.linkedin.com/posts/malodyhoe_digipen-gamedev-nintendoswitch-activity-6697401314508447744-AGQ2
+  cover: img/joycondragon.jpg
+  tool: Unity/C#
+  desc: >
+    A little project for design class, where I designed a player controller where you control a dragon purely with a joycon's orientation.
+    My goals were: "fun to control" and "expressiveness", and I think I achieved them!
+
+
+    Demo scene from the asset store package *Fantasy Adventure Environment*.  
+  date: 2020-08-04
