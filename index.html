@@ -1,10 +1,15 @@
 ---
 layout: default
-about: 
-    I'm a Computer Science & Game Design soon-to-be graduate with strong focus on gameplay and engine development.
-    I have a strong foundation in C++, and have worked on commercial engines like Unity and Unreal, as well as custom engines.
-    I love video games, and have a profound interest in games not just as entertainment, but more importantly, as an art form.
-    Feel free to browse my work!
+about: >
+  Computer Science & Game Design graduate with strong focus on gameplay and engine development.
+  I have a strong foundation in C++, and have worked with commercial engines like Unity and Unreal, as well as custom engines.
+
+
+  I pride myself as an adaptable individual with a generalist attitude:
+  "Specialization is for insects." ---Robert A. Heinlein, _Time Enough For Love_.
+
+
+  I love video games, and have a profound interest in games not just as entertainment, but more importantly, as an art form.
 image: img/me.jpg
 title: Malody Hoe // undefinist
 description: Hi, I'm Malody Hoe. I'm a Computer Science & Game Design soon-to-be graduate with strong focus on gameplay and engine development. Browse my works!
@@ -12,6 +17,7 @@ description: Hi, I'm Malody Hoe. I'm a Computer Science & Game Design soon-to-be
 <div class="container-fluid header" id="top">
   <h1>I make games not websites.</h1>
   <a href="https://twitter.com/undefinist">@undefinist</a><br/>
+  <a href="https://www.linkedin.com/in/malodyhoe/">$linkedin</a><br/>
   <a href="https://github.com/undefinist">::github</a><br/>
   <a href="https://blog.undefinist.com">_blog</a><br/>
   <a href="https://undefinist.deviantart.com">\custo</a><br/>
@@ -24,13 +30,27 @@ description: Hi, I'm Malody Hoe. I'm a Computer Science & Game Design soon-to-be
         <div class="card">
           <h2>Hi, I'm Malody Hoe.</h2>
           <div class="card-body">
-            <p>{{page.about}}</p>
+            {{page.about | markdownify}}
           </div>
         </div>
       </div>
     </div>
     <div class="ml-auto ml-md-0 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
       <img src="img/me.jpg" class="img-fluid rounded-circle">
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-6" id="history">
+      <h2>Exp/Edu</h2>
+      <div class="expand">
+        {% for elem in site.data.history %}
+          <div class="card">
+            <div class="card-body">
+              <span>{{elem.start}} – {{elem.end}} ·</span> <span><em>{{elem.title}}</em> ·</span> <span>{{elem.company}}</span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
   <div class="row" id="featured-games">
@@ -48,7 +68,7 @@ description: Hi, I'm Malody Hoe. I'm a Computer Science & Game Design soon-to-be
             <img src="{{game.cover}}" class="card-img-top">
             <div class="card-body">
               <h3 class="card-title">{{game.title}}</h3>
-              <p>{{game.desc | markdownify}}</p>
+              {{game.desc | markdownify}}
               <small>[ {{game.tool}} ]<br>{{gametype}}<br><span>{{game.interval}}</span></small>
             </div>
           </a>
