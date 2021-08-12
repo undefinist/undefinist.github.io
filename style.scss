@@ -227,40 +227,6 @@ small {
     }
 }
 
-#history {
-    .expand {
-        margin-left: 2rem;
-        margin-top: 1rem;
-        position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            left: -6px;
-            right: 6px;
-            top: 6px;
-            bottom: -6px;
-            border-left: solid 3px $accent2;
-            border-bottom: solid 3px $accent2;
-        }
-    }
-    .card {
-        box-shadow: none;
-        &:not(:last-child) {
-            margin-bottom: 15px !important;
-        }
-    }
-    span {
-        display: inline-block;
-        line-height: 1rem;
-        &:first-child {
-            color: #7f7f7f;
-        }
-        &:last-child {
-            color: $accent1;
-        }
-    }
-}
-
 // detail header
 header.masthead {
     padding: 20px 0;
