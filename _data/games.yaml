@@ -225,3 +225,10 @@
 
     Demo scene from the asset store package *Fantasy Adventure Environment*.  
   date: 2020-08-04
+
+- title: "The Big Picture"
+  url: https://undefinist.itch.io/thebigpicture
+  cover: img/thebigpicture.png
+  tool: Unity/C#
+  desc: Connect-the-Dots, but you are the dotter, not the liner. Made for GMTK Jam 2023
+  date: 2023-07-09
